@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #181D31;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "cafe_font";
+  src: url('./font/Cafe24Ssurround.ttf');
+}
+@font-face {
+  font-family: "gmarket_1_font";
+  src: url('./font/GmarketSansTTFBold.ttf');
+}
+@font-face {
+  font-family: "gmarket_2_font";
+  src: url('./font/GmarketSansTTFMedium.ttf');
 }

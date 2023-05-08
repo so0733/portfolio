@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'gmarket_2_font';
+  }
+  
+  .box {
+    position: relative;
+    margin: auto;
+    background: #000;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .box img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .box .info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .box .info h3 {
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 3px;
+  }
+  .box:hover .info {
+    opacity: 1;
+  }
+  .box:hover img {
+    opacity: 0.2;
+  }
+  
